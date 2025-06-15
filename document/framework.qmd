@@ -4,14 +4,16 @@ author: Ruijie Xu
 format: html
 ---
 
-# Introduction
+# Part I: Introduction
 
-## Background
+### Background
+
 AI infrastructure has become an increasingly important area of investment for countries with ambitions in the field. Beyond basic infrastructure such as electricity and network capacity, one of the most critical types of infrastructure for AI development is the AI data center. 
 
 The aim of this project is to analyze county-level data gathered from government websites to identify potential factors that determine whether a county is suitable for AI development. This analysis provides companies and policymakers with practical recommendations on whether and where to invest in today’s rapidly evolving AI landscape.
 
-## What Makes a Data Center an AI Data Center – Location Factors
+### What Makes a Data Center an AI Data Center – Location Factors
+
 Some factors related to the location selection of an AI data center can be summarized as follows (IBM, *What is an AI Data Center*, 2025 Feb):
 
 - **Large physical space requirements**: An AI data center is designed to host a large number of GPUs and supporting infrastructure, which occupy significant physical space. Counties that can offer large areas at low cost may attract more investment.
@@ -20,7 +22,8 @@ Some factors related to the location selection of an AI data center can be summa
 
 - **Need for efficient cooling systems**: As the demand for cooling infrastructure increases, efficient cooling solutions are becoming more important. Areas that offer innovative or cost-effective cooling options may have a competitive advantage.
 
-## The Selected Companies - Major Players
+### The Selected Companies - Major Players
+
 The companies selected for generating positive samples in this project are leading players in the technology industry. However, it should be noted that not all companies publicly disclose the exact locations of their data centers.
 
 * Microsoft
@@ -32,13 +35,22 @@ The companies selected for generating positive samples in this project are leadi
 * Equinix 
 * Digital Realty
 
-## Why County-Level Data
+### Why County-Level Data
+
 This project chose to use county-level data due to its balance between granularity and availability. Compared to city-level data, county-level data is generally more comprehensive, more accessible, and still retains sufficient spatial resolution for meaningful analysis.
 
-# Analytical Framework
+# Part II: Analytical Framework
 
-![]("")
+### Framework
 
+![](../images/framework.jpeg)
+
+### Raw Features Selection and Explanation
+
+![](../images/raw_features.jpeg)
 Feature selection was guided in part by Kearney’s *AI Data Center Location Attractiveness Index* (2025).
 
-# References
+# Part III: References
+
+- Kearney. (2025). *AI Data Center Location Attractiveness Index*. [Visit Kearney's report](https://www.kearney.com/industry/technology/article/ai-data-center-location-attractiveness-index)
+- IBM. (2025). *What is an AI Data Center*. [Visit IBM's report](https://www.ibm.com/think/topics/ai-data-center)
