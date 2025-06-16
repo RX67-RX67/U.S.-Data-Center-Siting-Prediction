@@ -50,6 +50,15 @@ This project chose to use county-level data due to its balance between granulari
 ![](../images/raw_features.jpeg)
 Feature selection was guided in part by Kearney’s *AI Data Center Location Attractiveness Index* (2025).
 
+This project uses data from the year 2023 as a temporal baseline, which aligns with the objective of identifying the key determinants of AI data center siting at the county level.
+
+The timing is also contextually relevant: since late 2022, the launch of ChatGPT and subsequent developments in generative AI have led to a rapid acceleration in AI adoption and investment, including substantial expansion in the demand for AI-specific infrastructure such as data centers.
+
+- **Electricity Price**: [Visit Data Source](https://data.openei.org/submissions/6225)
+- **Labor Cost**: [Visit Data Source](https://www.bls.gov/cew/downloadable-data-files.htm)
+- **Land Price**: [Visit Data Source](https://www.aei.org/housing/land-price-indicators/)
+
+
 # Part III: References
 
 - Kearney. (2025). *AI Data Center Location Attractiveness Index*. [Visit Kearney's report](https://www.kearney.com/industry/technology/article/ai-data-center-location-attractiveness-index)
